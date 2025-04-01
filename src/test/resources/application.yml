@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    data: data-test.sql
+    password: ''
+    url: jdbc:h2:mem:librarydb
+    username: sa
