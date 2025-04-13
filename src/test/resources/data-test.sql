@@ -1,8 +1,9 @@
 INSERT INTO authors (name) VALUES
-                                           ('Leo Tolstoy');
+                            ('Leo Tolstoy');
 
-INSERT INTO genres (name) VALUES
-                              ('Novel');
+
+MERGE INTO genres (name) KEY(name) VALUES ('Novel');
+
 
 
 INSERT INTO books (title, author_id, genre_id, publication_year) VALUES
