@@ -1,7 +1,7 @@
-INSERT INTO authors (name, birth_date) VALUES
-                                           ('Leo Tolstoy', '1828-09-09'),
-                                           ('Fyodor Dostoevsky', '1821-11-11'),
-                                           ('Jane Austen', '1775-12-16');
+INSERT INTO authors (name) VALUES
+                                           ('Leo Tolstoy'),
+                                           ('Fyodor Dostoevsky'),
+                                           ('Jane Austen');
 
 INSERT INTO genres (name) VALUES
                               ('Novel'),
